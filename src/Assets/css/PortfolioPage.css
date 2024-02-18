@@ -1,0 +1,32 @@
+.Projects-Main-Container, .Projects-Container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Projects-Main-Container {
+    align-items: center;
+    row-gap: 30px;
+}
+
+.heading {
+    width: 80%;
+}
+
+.heading h1 {
+    text-align: start;
+}
+
+.Projects-Container {
+    row-gap: 150px;
+}
+
+.Projects-Container div {
+    display: flex;
+    justify-content: center;
+    column-gap: 200px;
+}
+
+.Projects-Container div img {
+    width: 400px;
+    height: 300px;
+}

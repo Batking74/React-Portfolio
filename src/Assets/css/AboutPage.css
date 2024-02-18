@@ -1,0 +1,39 @@
+:root {
+    --gap: 40px;
+}
+
+img {
+    width: 100px;
+}
+
+.about-main-container, .about-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-main-container {
+    row-gap: var(--gap);
+    margin: 0 100px 0 100px;
+}
+
+.about-text-container {
+    row-gap: calc(var(--gap) - 20px);
+    font-size: 1.2rem;
+}
+
+.socialmedia-img-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    column-gap: var(--gap);
+}
+
+.socialmedia-img-container img {
+    width: 50px;
+}
+
+.socialmedia-img-container img:hover {
+    color: #b7b7b7e2;
+    transition: 0.5s;
+}
