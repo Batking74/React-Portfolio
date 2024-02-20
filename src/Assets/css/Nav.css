@@ -24,7 +24,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 9;
 }
 
 
@@ -36,6 +35,10 @@ h1 {
     color: #e1dad5;
 }
 
+nav div {
+    display: flex;
+}
+
 /* Styling each individual link */
 nav div a {
     text-transform: capitalize;
@@ -44,5 +47,51 @@ nav div a {
     font-size: 25px;
     margin: 0 40px;
     padding: 10px;
-    position: relative;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 1150px) {
+
+    /* Styling each individual link */
+    nav div a {
+        margin: 0 10px;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+
+    /* Styling each individual link */
+    nav div a {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 730px) {
+    
+    /* My Name */
+    h1 {
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    
+    /* Navigation Container */
+    nav {
+        height: 100px;
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 570px) {
+    /* Navigation Container */
+    nav div a {
+        font-size: 15px;
+    }
 }
