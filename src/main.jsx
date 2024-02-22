@@ -8,6 +8,7 @@ import './Assets/css/AboutPage.css';
 import './Assets/css/PortfolioPage.css';
 import './Assets/css/ContactPage.css';
 
+
 // Bringing in the pages the router will use to conditionally show the appropriate views
 import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
