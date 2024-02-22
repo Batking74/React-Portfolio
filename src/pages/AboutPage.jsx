@@ -4,7 +4,7 @@ export default function AboutPage() {
     <div className="about-main-container pt-4">
       {/* Image */}
       <h2>About Me</h2>
-      <img src="../Assets/images/14_year_old_naz.webp" alt="Image of Nazir" />
+      <img src="/src/Assets/images/14_year_old_naz.webp" alt="Image of Nazir" />
 
       {/* About Text */}
       <div className="about-text-container">

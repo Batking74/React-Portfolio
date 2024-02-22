@@ -5,13 +5,13 @@ export default function Footer() {
             {/* Social Media */}
             <div className="socialmedia-img-container">
                 <a href="https://github.com/Batking74">
-                    <img src="../Assets/images/GitHub.webp" alt="GitHub Icon" />
+                    <img src="/src/Assets/images/GitHub.webp" alt="GitHub Icon" />
                 </a>
                 <a href="https://www.linkedin.com/in/nazir-knuckles-736970234/">
-                    <img src="../Assets/images/Linked.webp" alt="LinkedIn Icon" />
+                    <img src="/src/Assets/images/Linked.webp" alt="LinkedIn Icon" />
                 </a>
                 <a href="https://www.instagram.com/mr_blacknificent/">
-                    <img src="../Assets/images/Black_Instagram_Icon.webp" alt="Instagram Icon" />
+                    <img src="/src/Assets/images/Black_Instagram_Icon.webp" alt="Instagram Icon" />
                 </a>
             </div>
         </>
