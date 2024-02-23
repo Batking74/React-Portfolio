@@ -12,6 +12,6 @@ This portfolio is built using React.js, showcasing my skills and projects in a m
 - JavaScript
 - React
 
-Deployed Site: https://bootcampportfolio.netlify.app/Portfolio
+Deployed Site: https://bootcampportfolio.netlify.app/
 
 GitHub Repo: https://github.com/Batking74/React-Portfolio
