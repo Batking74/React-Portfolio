@@ -1,8 +1,10 @@
+import Resume from '../Assets/Nazir_Knuckles_Portfolio_Resume.pdf';
+
 export default function ResumePage() {
   return (
     <>
       <h2>Resume</h2>
-      <a href="/Assets/Nazir_Knuckles_Portfolio_Resume.pdf">View My Resume</a>
+      <a href={Resume} >View My Resume</a>
     </>
   )
 }

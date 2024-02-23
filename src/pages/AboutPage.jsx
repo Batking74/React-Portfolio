@@ -1,10 +1,12 @@
+import myImage from '../Assets/images/14_year_old_naz.webp';
+
 // This is a static page mocking an "About Us" section for our fake user data
 export default function AboutPage() {
   return (
     <div className="about-main-container pt-4">
       {/* Image */}
       <h2>About Me</h2>
-      <img src="/Assets/images/14_year_old_naz.webp" alt="Image of Nazir" />
+      <img src={myImage} alt="Image of Nazir" />
 
       {/* About Text */}
       <div className="about-text-container">
